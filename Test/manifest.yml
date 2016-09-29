@@ -1,0 +1,7 @@
+﻿---
+applications:
+- name: test
+  memory: 512M
+  stack: windows2012R2
+  buildpack: binary_buildpack
+  health-check-type: none
